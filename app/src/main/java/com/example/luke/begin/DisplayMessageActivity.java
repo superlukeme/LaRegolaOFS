@@ -12,11 +12,12 @@ public class DisplayMessageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_message);
         Intent intent = getIntent();
+        /* Removed unused code
         String message = intent.getStringExtra(SplashScreenActivity.EXTRA_MESSAGE);
         TextView textView = new TextView(this);
         textView.setTextSize(40);
         textView.setText(message);
-        setContentView(textView);
+        setContentView(textView);*/
     }
 
 }
